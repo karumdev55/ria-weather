@@ -1,5 +1,23 @@
-# Vue 3 + Vite
+# Ria Weather App (Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Weather forecasting application built using Vue 3
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- 3 preloaded city tabs: Rio de Janeiro, Beijing, Los Angeles
+- Real-time 5-day and hourly forecast using OpenWeatherMap API (can change to more or less number of days/hours as needed)
+- City search with autocomplete (20,000+ cities) (Used weatherbit to get the csv and convert it to JSON - hardcoded values not in DB)
+- Manual refresh option
+
+## Technologies Used
+
+- Vue 3 (Composition API)
+- Vite
+- Axios
+- OpenWeatherMap API
+- Weatherbit city metadata
+
+## Setup
+
+npm install
+npm run dev
