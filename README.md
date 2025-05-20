@@ -19,5 +19,5 @@ Weather forecasting application built using Vue 3
 
 ## Setup
 
-npm install
-npm run dev
+- npm install
+- npm run dev
